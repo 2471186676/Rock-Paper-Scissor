@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
-
+<head>
     <script src="script.js"></script>
-
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-    <div>
+    <div class = "container">
+        <div class="result">
+            <h class="emoji" id="player">&#128073</h>
+            <h class="emoji" id="AI">&#128072</h>
+            <p id="result">result go here</p>
+        </div>
+
+        <div class="select">
+
+            <button onclick="playRound(0)" class="emoji">&#9994<br>rock</button> 
+            <button onclick="playRound(1)" class="emoji">&#9995<br>paper</button> 
+            <button onclick="playRound(2)" class="emoji">&#128076<br>scissor</button>
+
+        </div>
+
+        <div class="point"> 
+            <p><a id="point-player">0</a> -
+            <a id="point-AI">0</a></p>
+        </div>
     </div>
+
 </body>
 
 </html>

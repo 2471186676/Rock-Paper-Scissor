@@ -1,3 +1,29 @@
-.selector{
-    float: top;
+body{
+    background-color: #648377;
+}
+
+.select{
+    text-align: center;
+}
+
+.emoji{
+    padding:25px;
+    font-size: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.result{
+    text-align: center;
+}
+
+.container{
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #bef0dd;
+    padding: 30px;
+}
+
+.point{
+    text-align: center;
 }
