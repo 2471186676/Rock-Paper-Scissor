@@ -18,10 +18,14 @@ body{
 }
 
 .container{
+    margin-left: auto;
+    margin-right: auto;
     border-style: solid;
     border-radius: 10px;
     background-color: #bef0dd;
     padding: 30px;
+    max-width: 500px;
+    max-height: 250px;
 }
 
 .point{
