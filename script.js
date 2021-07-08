@@ -86,5 +86,16 @@ function returnDecimal(num){
 }
 
 function endGame(player, AI){
-    document.querySelector(".container").style.visibility = "hidden";
+    let list = document.getElementById("box"), text;
+    for(let i = 0; i < 3; i++){
+        list.getElementsByTagName("button")[i].style.visibility = "hidden";
+    }
+
+    if(player > AI)
+        text = "The AI is no more! you WIN!!";
+
+    else if(AI > player)
+        text = "Blame system, not the game";
+
+    document.getElementById("result").innerHTML = text;
 }
